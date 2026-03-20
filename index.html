@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ara Kim Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f6f6f4;
+      color: #111;
+      line-height: 1.6;
+    }
+    header, section, footer {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    header {
+      padding-top: 80px;
+    }
+    h1, h2, h3 {
+      margin-bottom: 12px;
+    }
+    .works {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+    .work {
+      background: white;
+      border-radius: 14px;
+      padding: 16px;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+      display: block;
+      margin-bottom: 12px;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>김신형 Ara Kim</h1>
+    <p>Painting, material research, installation</p>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>
+      서울대학교에서 회화를 기반으로 작업하며,
+      재료의 물성과 회화의 시간성에 관심을 두고 작업합니다.
+    </p>
+  </section>
+
+  <section>
+    <h2>Works</h2>
+    <div class="works">
+      <div class="work">
+        <img src="images/work1.jpg" alt="작품 1">
+        <h3>Work Title 1</h3>
+        <p>2026, acrylic on canvas, 130 × 162 cm</p>
+      </div>
+      <div class="work">
+        <img src="images/work2.jpg" alt="작품 2">
+        <h3>Work Title 2</h3>
+        <p>2026, mixed media, variable size</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>CV</h2>
+    <p>학력, 전시, 프로젝트, 수상 경력 등을 여기에 추가합니다.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <p>Instagram: @youraccount</p>
+  </section>
+
+  <footer>
+    <p>© Ara Kim</p>
+  </footer>
+</body>
+</html>
